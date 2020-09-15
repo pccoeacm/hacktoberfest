@@ -1,0 +1,177 @@
+#title {
+    background-color: #072540;
+    color: #fff;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;  
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+/* Navigation Bar */
+
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: ;
+}
+
+/* Register button */
+
+.register-button-top{
+    margin: 5% 3% 5% 0;
+    color: #fff !important;
+}
+
+.register-button-bottom{
+    margin: 5% 3% 5% 0;
+    color: #212529!important;
+}
+
+
+/* Golbal stats section */
+
+.global-stats-header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#global-stats{
+    padding: 7% 15%;
+    background-color: #fff;
+     position: relative; 
+
+}
+
+.global-stats-row{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #072540;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Fest Info */
+
+#fest-info{
+    
+    text-align: center;
+    background-color: #9c4668;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+
+.about-hacktoberfest{
+    padding: 7% 15%;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+/* Schedule */
+
+#schedule{
+    padding: 7% 10%;
+    text-align: center;
+
+}
+
+.schedule-column{
+    padding: 3% 2%;
+}
+
+
+/* Call to Action */
+
+#cta{
+    background-color: #072540;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-quote{
+
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+
+/* Footer */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    padding: 20px 10px;
+    transform: scale(1.5)
+}
+
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static; 
+        /* so that when it switches to tablet/ mobile size, it's position should be fixed */
+        
+        transform: rotate(0);
+        /* so that when it switches to tablet/mobile size, the image becomes straight */
+    }
+}
