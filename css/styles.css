@@ -55,11 +55,43 @@ p{
     font-weight: ;
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#pad{
+    margin-right: 10px  ;
+}
+
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cover #logo1{
+    /* margin-top: 25px; */
+}
+.cover #logo2{
+    margin-top: 25px;
+}
+.btndesign{
+    background-color: #9c4668;
+}
+.btndesign:hover{
+    background-color: #832b4e;
+    
+}
+
 /* Register button */
 
 .register-button-top{
     margin: 5% 3% 5% 0;
     color: #fff !important;
+
 }
 
 .register-button-bottom{
@@ -190,4 +222,9 @@ span{
         transform: rotate(0);
         /* so that when it switches to tablet/mobile size, the image becomes straight */
     }
+
+    .cover{
+        margin-top: 25px;
+    }
 }
+
