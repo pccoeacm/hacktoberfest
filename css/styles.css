@@ -206,7 +206,8 @@ span{
 
 .social-icon{
     padding: 20px 10px;
-    transform: scale(1.5)
+    transform: scale(1.5);
+    color: #072540;
 }
 
 
