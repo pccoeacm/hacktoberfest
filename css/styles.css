@@ -157,11 +157,27 @@ span{
 #schedule{
     padding: 7% 10%;
     text-align: center;
-
 }
 
 .schedule-column{
-    padding: 3% 2%;
+    padding: 2% 2%;
+}
+.card{
+    height: 250px;
+    width: 400px;
+}
+
+.timing{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.schedule-content{
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
 }
 
 
