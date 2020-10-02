@@ -74,7 +74,6 @@ p {
 
 .nav-link {
   font-size: 1.2rem;
-  font-weight: ;
 }
 
 .logo {
@@ -94,9 +93,7 @@ p {
   align-items: center;
   flex-direction: column;
 }
-.cover #logo1 {
-  /* margin-top: 25px; */
-}
+
 .cover #logo2 {
   margin-top: 25px;
 }
@@ -143,6 +140,15 @@ p {
   margin-bottom: 1rem;
 }
 
+/* repos */
+.repo-card {
+  margin: auto;
+}
+
+.assoc-repo {
+  background: #072540;
+}
+
 /* Fest Info */
 
 #fest-info {
@@ -175,7 +181,7 @@ span {
   padding: 2% 2%;
 }
 .card {
-  height: 250px;
+  height: 300px;
   width: 400px;
 }
 
