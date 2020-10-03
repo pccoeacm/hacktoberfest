@@ -185,6 +185,36 @@ span{
 }
 
 
+/* Prizes */
+
+#prizes{
+    background-color: #9c4668;
+    padding: 7% 10%;
+
+}
+
+.prizes-header{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.prizes{
+    text-align: left;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.prizes-content{
+    text-align: left;
+    font-size: large;
+    color: #fff;
+}
+
+.conditions{
+    text-align: left;
+    
+}
+
 /* Call to Action */
 
 #cta{
