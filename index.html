@@ -51,7 +51,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="logo">
             <img src="images/ACM.png" width="100" />
-            <span style="font-size: 1.3em;margin-right: 10px;">+</span>
+            <span style="font-size: 1.3em; margin-right: 10px">+</span>
             <img src="images/Icon.svg" width="80" height="80" />
           </div>
           <button
@@ -68,7 +68,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="http://bit.ly/hacktoberfest-pccoeacm" target="_blank">About the fest</a>
+                <a
+                  class="nav-link"
+                  href="http://bit.ly/hacktoberfest-pccoeacm"
+                  target="_blank"
+                  >About the fest</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#schedule">Schedule</a>
@@ -84,23 +89,40 @@
 
         <div class="row">
           <div class="col-lg-6 col-md-12">
-            <h1>Meet new and interesting developers.</h1>
-            <button type="button" class="btn btn-dark btn-lg download-button btndesign">
-              <a class="register-button-top" href="https://organize.mlh.io/participants/events/4385-hacktoberfest-online-meetup-by-pccoe-acm-student-chapter" target="_blank">REGISTER</a>
-            </button>    
-        </div>
+            <h1>Changing the World One Pull Request at a time.</h1>
+            <button
+              type="button"
+              class="btn btn-dark btn-lg download-button btndesign"
+            >
+              <a
+                class="register-button-top"
+                href="https://organize.mlh.io/participants/events/4385-hacktoberfest-online-meetup-by-pccoe-acm-student-chapter"
+                target="_blank"
+                >REGISTER</a
+              >
+            </button>
+          </div>
 
           <!-- Logo -->
 
           <div class="col-lg-6 col-md-12">
             <div class="cover">
-              <img id="logo1" src="images/Hactoberfest.svg" alt="Logo" height="300">
-              <img id="logo2" src="images/Sponsors Dark Boxed.svg" alt="Logo" width="300">
+              <img
+                id="logo1"
+                src="images/Hactoberfest.svg"
+                alt="Logo"
+                height="300"
+              />
+              <img
+                id="logo2"
+                src="images/Sponsors Dark Boxed.svg"
+                alt="Logo"
+                width="300"
+              />
             </div>
           </div>
 
           <!-- Logo -->
-
         </div>
       </div>
     </section>
@@ -108,24 +130,202 @@
     <!-- Global stats -->
 
     <section id="global-stats">
-        <h3 class="global-stats-header">Global stats for Hacktoberfest 2019</h3>
+      <h3 class="global-stats-header">Global stats for Hacktoberfest 2019</h3>
       <div class="row">
         <div class="global-stats-row col-lg-4">
           <i class="icon fas fa-check-circle fa-4x"></i>
-          <h2>61,871</h2>
+          <h2 class="counter" data-target="61871">0</h2>
           <p>CHALLENGE COMPLETIONS</p>
         </div>
 
         <div class="global-stats-row col-lg-4">
-            <i class="icon fas fa-check-circle fa-4x"></i>
-          <h2>483,127</h2>
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h2 class="counter" data-target="483127">0</h2>
           <p>PULL REQUESTS OPENED</p>
         </div>
 
         <div class="global-stats-row col-lg-4">
-            <i class="icon fas fa-check-circle fa-4x"></i>
-          <h2>154,767</h2>
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h2 class="counter" data-target="154767">0</h2>
           <p>PARTICIPATING REPOSITORIES</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Associated Repos -->
+
+    <section id="global-stats">
+      <h3 class="global-stats-header">Associated Repositories</h3>
+      <br /><br />
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="repo-card card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">skill-board</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML, JS, CSS</h6>
+              <p class="card-text">
+                A listing board where students of PCCOE can showcase their
+                skills and experience for the Faculty to easily find
+                opportunities for them.
+              </p>
+              <a
+                href="https://github.com/devscollab/skill-board"
+                target="_blank"
+                class="card-link"
+                >Repo</a
+              >
+              <a
+                href="https://github.com/devscollab/skill-board/blob/master/CONTRIBUTING.md"
+                target="_blank"
+                class="card-link"
+                >Guidelines</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="repo-card card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">devscollab.github.io</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML, JS, CSS</h6>
+              <p class="card-text">
+                A website to track the status of the OpenSource Projects and
+                contributors.
+              </p>
+              <a
+                href="https://github.com/devscollab/devscollab.github.io"
+                target="_blank"
+                class="card-link"
+                >Repo</a
+              >
+              <a
+                href="https://github.com/devscollab/devscollab.github.io/blob/master/CONTRIBUTING.md"
+                target="_blank"
+                class="card-link"
+                >Guidelines</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="repo-card card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">skill-board-api</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Node.js, MongoDB</h6>
+              <p class="card-text">API for Skill Board data handling</p>
+              <a
+                href="https://github.com/devscollab/skill-board-api"
+                target="_blank"
+                class="card-link"
+                >Repo</a
+              >
+              <a
+                href="https://github.com/devscollab/skill-board-api/blob/master/CONTRIBUTING.md"
+                class="card-link"
+                >Guidelines</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="repo-card card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">hacktoberfest</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML, JS, CSS</h6>
+              <p class="card-text">
+                About the Hacktoberfest Online Meetup by PCCoE ACM Student
+                Chapter
+              </p>
+              <a
+                href="https://github.com/pccoeacm/hacktoberfest"
+                target="_blank"
+                class="card-link"
+                >Repo</a
+              >
+              <a
+                href="https://github.com/pccoeacm/hacktoberfest/blob/master/CONTRIBUTING.md"
+                traget="_blank"
+                class="card-link"
+                >Guidelines</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="repo-card card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">expenses-flutter-app</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Android, Flutter</h6>
+              <p class="card-text">
+                A Flutter app to keep a track of expenses for any organization
+              </p>
+              <a
+                href="https://github.com/pccoeacm/expenses-flutter-app"
+                target="_blank"
+                class="card-link"
+                >Repo</a
+              >
+              <a
+                href="https://github.com/pccoeacm/expenses-flutter-app/blob/master/CONTRIBUTING.md"
+                target="_blank"
+                class="card-link"
+                >Guidelines</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="repo-card card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">all-calc</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Python</h6>
+              <p class="card-text">
+                All Calc - A calculator to calculate anything you can think of!
+              </p>
+              <a
+                href="https://github.com/pccoeacm/all-calc"
+                target="_blank"
+                class="card-link"
+                >Repo</a
+              >
+              <a
+                href="https://github.com/pccoeacm/all-calc/blob/main/CONTRIBUTING.md"
+                target="_blank"
+                class="card-link"
+                >Guidelines</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="repo-card card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">ml-opensource</h5>
+              <h6 class="card-subtitle mb-2 text-muted">ML, Flask</h6>
+              <p class="card-text">
+                This repository consists of opensourced ML Projects with
+                front-end of Flask.
+              </p>
+              <a
+                href="https://github.com/pccoeacm/ml-opensource"
+                target="_blank"
+                class="card-link"
+                >Repo</a
+              >
+              <a
+                href="https://github.com/pccoeacm/ml-opensource/blob/master/CONTRIBUTING.md"
+                traget="_blank"
+                class="card-link"
+                >Guidelines</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -133,128 +333,64 @@
     <!-- Fest Info -->
 
     <section id="fest-info">
-
-        <p class="about-hacktoberfest">
-            <span>Hacktoberfest is open to everyone in our global community.</span>  
-            <br> Whether you’re new to development, a student, 
-             long-time contributor, event host, or company of any size, you can help drive growth of open source 
-             and make positive contributions to an ever-growing community.
-         </p>
-      
+      <p class="about-hacktoberfest">
+        <span>Hacktoberfest is open to everyone in our global community.</span>
+        <br />
+        Whether you’re new to development, a student, long-time contributor,
+        event host, or company of any size, you can help drive growth of open
+        source and make positive contributions to an ever-growing community.
+      </p>
     </section>
-
-    
 
     <!-- Schedule -->
 
     <section id="schedule">
-      <h2> <center>Schedule for the event</center></h2>
-      <br><br>
+      <h2><center>Schedule for the event</center></h2>
+      <br /><br />
 
-    <center>
-      <div class="row">
-        <div class="schedule-column col-lg-4">
-          <div class="card">
-            <div class="card-header">
-              <h3 class="timing">11:00 AM to 11:15 AM</h3>
+      <center>
+        <div class="row">
+          <div class="schedule-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="timing">11:00 AM to 11:15 AM</h3>
+              </div>
+
+              <div class="card-body">
+                <p class="schedule-content">Welcome Address</p>
+              </div>
             </div>
+          </div>
 
-            <div class="card-body">
-              <p class="schedule-content">Welcome Address	</p>
-              
+          <div class="schedule-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="timing">11:15 AM to 11:30 AM</h3>
+              </div>
+
+              <div class="card-body">
+                <p class="schedule-content">
+                  Introduction to Hacktoberfest & Opensource
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="schedule-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="timing">11:30 AM to 12:00PM</h3>
+              </div>
+
+              <div class="card-body">
+                <p class="schedule-content">
+                  Workshop for Opensource Contribution
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="schedule-column col-lg-4">
-          <div class="card">
-            <div class="card-header">
-              <h3 class="timing">11:15 AM to 11:30 AM</h3>
-            </div>
-
-            <div class="card-body">
-              <p class="schedule-content">Introduction to Hacktoberfest & Opensource</p>
-              
-            </div>
-          </div>
-        </div>
-
-        <div class="schedule-column col-lg-4">
-          <div class="card">
-            <div class="card-header">
-              <h3 class="timing">11:30 AM to 12:00PM</h3>
-            </div>
-
-            <div class="card-body">
-              <p class="schedule-content">Workshop for Opensource Contribution	</p>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </center>
-
-
-    <center>
-      <div class="row">
-        <div class="schedule-column col-lg-4">
-          <div class="card">
-            <div class="card-header">
-              <h3 class="timing">12:00 PM to 12:30 PM</h3>
-            </div>
-
-            <div class="card-body">
-              <p class="schedule-content">Opportunities to contribute	</p>
-              
-            </div>
-          </div>
-        </div>
-
-        <div class="schedule-column col-lg-4">
-          <div class="card">
-            <div class="card-header">
-              <h3 class="timing">12:30 PM to 01:30 PM</h3>
-            </div>
-
-            <div class="card-body">
-              <p class="schedule-content">Breakout Rooms for Icebreaking	</p>
-              
-            </div>
-          </div>
-        </div>
-
-        <div class="schedule-column col-lg-4">
-          <div class="card">
-            <div class="card-header">
-              <h3 class="timing">01:30 PM to 03:30 PM</h3>
-            </div>
-
-            <div class="card-body">
-              <p class="schedule-content">Get Hacking	</p>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </center>
-
-
-
-
-    <center>
-      <div class="row">
-        <div class="schedule-column col-lg-4">
-          <div class="card">
-            <div class="card-header">
-              <h3 class="timing">03:30 PM to 04:00 PM</h3>
-            </div>
-
-            <div class="card-body">
-              <p class="schedule-content">Show and Tell	</p>
-              
-            </div>
-          </div>
-        </div>
       </div>
     </center>
   </section>
@@ -285,26 +421,100 @@
       
         
       
+      </center>
+
+      <center>
+        <div class="row">
+          <div class="schedule-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="timing">12:00 PM to 12:30 PM</h3>
+              </div>
+
+              <div class="card-body">
+                <p class="schedule-content">Opportunities to contribute</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="schedule-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="timing">12:30 PM to 01:30 PM</h3>
+              </div>
+
+              <div class="card-body">
+                <p class="schedule-content">Breakout Rooms for Icebreaking</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="schedule-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="timing">01:30 PM to 03:30 PM</h3>
+              </div>
+
+              <div class="card-body">
+                <p class="schedule-content">Get Hacking</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </center>
+
+      <center>
+        <div class="row">
+          <div class="schedule-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="timing">03:30 PM to 04:00 PM</h3>
+              </div>
+
+              <div class="card-body">
+                <p class="schedule-content">Show and Tell</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </center>
+
     </section>
 
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3 class="cta-quote">Open source is changing the world - one pull request at a time.</h3>
-            <button type="button" class="btn btn-light btn-lg download-button">
-              <a class="register-button-bottom" href="https://organize.mlh.io/participants/events/4385-hacktoberfest-online-meetup-by-pccoe-acm-student-chapter" target="_blank">REGISTER</a>
-            </button>
+      <h3 class="cta-quote">
+        Open source is changing the world - one pull request at a time.
+      </h3>
+      <button type="button" class="btn btn-light btn-lg download-button">
+        <a
+          class="register-button-bottom"
+          href="https://organize.mlh.io/participants/events/4385-hacktoberfest-online-meetup-by-pccoe-acm-student-chapter"
+          target="_blank"
+          >REGISTER</a
+        >
+      </button>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <a href="https://www.facebook.com/pccoe.acm" target="_blank"> <i class="social-icon fab fa-facebook"></i></a> 
-      <a href="https://twitter.com/pccoe_acm" target="_blank"><i class="social-icon fab fa-twitter"></i></a> 
-      <a href="https://www.instagram.com/pccoeacm/?hl=en" target="_blank"> <i class="social-icon fab fa-instagram"></i></a>
-      <a href="mailto: pccoeacm@gmail.com" target="_blank"><i class="social-icon fas fa-envelope"></i></a> 
-      <br>
+      <a href="https://www.facebook.com/pccoe.acm" target="_blank">
+        <i class="social-icon fab fa-facebook"></i
+      ></a>
+      <a href="https://twitter.com/pccoe_acm" target="_blank"
+        ><i class="social-icon fab fa-twitter"></i
+      ></a>
+      <a href="https://www.instagram.com/pccoeacm/?hl=en" target="_blank">
+        <i class="social-icon fab fa-instagram"></i
+      ></a>
+      <a href="mailto: pccoeacm@gmail.com" target="_blank"
+        ><i class="social-icon fas fa-envelope"></i
+      ></a>
+      <br />
       <p>© Copyright 2020 PCCOE-ACM HacktoberFest</p>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>

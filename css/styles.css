@@ -1,188 +1,203 @@
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9c4668;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #072540;
+}
 
 #title {
-    background-color: #072540;
-    color: #fff;
+  background-color: #072540;
+  color: #fff;
 }
 
-body{
-    font-family: 'Comfortaa', cursive;
+body {
+  font-family: "Comfortaa", cursive;
 }
 
-.container-fluid{
-    padding: 3% 15% 7%;  
+.container-fluid {
+  padding: 3% 15% 7%;
 }
 
-h1{
-    font-weight: 700;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    padding-bottom: 20px;
+h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 20px;
 }
 
-h2{
-    font-weight: bolder;
-    font-size: 3rem;
-    line-height: 1.5;
+h2 {
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-h3{
-    font-size: 20px;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 900;
+h3 {
+  font-size: 20px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 900;
 }
 
-p{
-    color: #8f8f8f;
+p {
+  color: #8f8f8f;
 }
-
 
 /* Navigation Bar */
 
-
-.navbar{
-    padding: 0 0 4.5rem;
+.navbar {
+  padding: 0 0 4.5rem;
 }
-.navbar-brand{
-    font-size: 2rem;
-    font-weight: normal;
-}
-
-.nav-item{
-    padding: 0 18px;
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: normal;
 }
 
-.nav-link{
-    font-size: 1.2rem;
-    font-weight: ;
+.nav-item {
+  padding: 0 18px;
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+.nav-link {
+  font-size: 1.2rem;
 }
 
-#pad{
-    margin-right: 10px  ;
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
-.cover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#pad {
+  margin-right: 10px;
 }
-.cover #logo1{
-    /* margin-top: 25px; */
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.cover #logo2{
-    margin-top: 25px;
+
+.cover #logo2 {
+  margin-top: 25px;
 }
-.btndesign{
-    background-color: #9c4668;
+.btndesign {
+  background-color: #9c4668;
 }
-.btndesign:hover{
-    background-color: #832b4e;
-    
+.btndesign:hover {
+  background-color: #832b4e;
 }
 
 /* Register button */
 
-.register-button-top{
-    margin: 5% 3% 5% 0;
-    color: #fff !important;
-
+.register-button-top {
+  margin: 5% 3% 5% 0;
+  color: #fff !important;
 }
 
-.register-button-bottom{
-    margin: 5% 3% 5% 0;
-    color: #212529!important;
+.register-button-bottom {
+  margin: 5% 3% 5% 0;
+  color: #212529 !important;
 }
-
 
 /* Golbal stats section */
 
-.global-stats-header{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
+.global-stats-header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-#global-stats{
-    padding: 7% 15%;
-    background-color: #fff;
-     position: relative; 
-
+#global-stats {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
-.global-stats-row{
-    text-align: center;
-    padding: 5%;
+.global-stats-row {
+  text-align: center;
+  padding: 5%;
 }
 
-.icon{
-    color: #072540;
-    margin-bottom: 1rem;
+.icon {
+  color: #072540;
+  margin-bottom: 1rem;
 }
 
+/* repos */
+.repo-card {
+  margin: auto;
+}
 
+.assoc-repo {
+  background: #072540;
+}
 
 /* Fest Info */
 
-#fest-info{
-    
-    text-align: center;
-    background-color: #9c4668;
-    color: #fff;
-    margin-bottom: 40px;
+#fest-info {
+  text-align: center;
+  background-color: #9c4668;
+  color: #fff;
+  margin-bottom: 40px;
 }
 
-
-.about-hacktoberfest{
-    padding: 7% 15%;
-    font-size: 30px;
-    line-height: 1.5;
-    color: #fff;
+.about-hacktoberfest {
+  padding: 7% 15%;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #fff;
 }
 
-span{
-    font-size: 40px;
-    font-weight: bold;
+span {
+  font-size: 40px;
+  font-weight: bold;
 }
-
-
 
 /* Schedule */
 
-#schedule{
-    padding: 7% 10%;
-    text-align: center;
+#schedule {
+  padding: 7% 10%;
+  text-align: center;
 }
 
-.schedule-column{
-    padding: 2% 2%;
+.schedule-column {
+  padding: 2% 2%;
 }
-.card{
-    height: 250px;
-    width: 400px;
-}
-
-.timing{
-    font-weight: bold;
-    font-size: 20px;
+.card {
+  height: 300px;
+  width: 400px;
 }
 
-.schedule-content{
-    padding-top: 10px;
-    font-size: 30px;
-    text-align: center;
-    color: black;
-    font-weight: bold;
+.timing {
+  font-weight: bold;
+  font-size: 20px;
 }
+
+.schedule-content {
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
 
 
 /* Prizes */
@@ -215,51 +230,49 @@ span{
     
 }
 
+
 /* Call to Action */
 
-#cta{
-    background-color: #072540;
-    color: #fff;
-    text-align: center;
-    padding: 7% 15%;
+#cta {
+  background-color: #072540;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
 }
 
-.cta-quote{
-
-    font-size: 3.5rem;
-    line-height: 1.5;
-    padding-bottom: 40px;
+.cta-quote {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 40px;
 }
 
 /* Footer */
 
-#footer{
-    padding: 7% 15%;
-    text-align: center;
+#footer {
+  padding: 7% 15%;
+  text-align: center;
 }
 
-.social-icon{
-    padding: 20px 10px;
-    transform: scale(1.5);
-    color: #072540;
+.social-icon {
+  padding: 20px 10px;
+  transform: scale(1.5);
+  color: #072540;
 }
-
 
 @media (max-width: 1028px) {
-    #title{
-        text-align: center;
-    }
+  #title {
+    text-align: center;
+  }
 
-    .title-img{
-        position: static; 
-        /* so that when it switches to tablet/ mobile size, it's position should be fixed */
-        
-        transform: rotate(0);
-        /* so that when it switches to tablet/mobile size, the image becomes straight */
-    }
+  .title-img {
+    position: static;
+    /* so that when it switches to tablet/ mobile size, it's position should be fixed */
 
-    .cover{
-        margin-top: 25px;
-    }
+    transform: rotate(0);
+    /* so that when it switches to tablet/mobile size, the image becomes straight */
+  }
+
+  .cover {
+    margin-top: 25px;
+  }
 }
-
