@@ -120,19 +120,23 @@ p {
 
 .global-stats-header {
   text-align: center;
-  font-size: 30px;
+  color: #eb3486;
+  font-size: 40px;
   font-weight: bold;
+  text-shadow: 2px 2px #212529;
 }
 
 #global-stats {
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
+ 
 }
 
 .global-stats-row {
   text-align: center;
   padding: 5%;
+  
 }
 
 .icon {
@@ -165,9 +169,11 @@ p {
   color: #fff;
 }
 
+
 span {
   font-size: 40px;
   font-weight: bold;
+  color: #212529;
 }
 
 /* Schedule */
@@ -183,6 +189,12 @@ span {
 .card {
   height: 300px;
   width: 400px;
+}
+
+.card-body:hover{
+  background-color:#F5F5F5;
+  border:2px solid black;
+ 
 }
 
 .timing {
