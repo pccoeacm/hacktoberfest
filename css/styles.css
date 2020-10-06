@@ -143,6 +143,7 @@ p {
 /* repos */
 .repo-card {
   margin: auto;
+  margin: 20px;
 }
 
 .assoc-repo {
