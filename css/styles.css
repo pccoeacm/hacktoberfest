@@ -140,6 +140,13 @@ p {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 1028px){
+#global-stats .card{
+  position:relative;
+  left:170px;
+}
+}
+
 /* repos */
 .repo-card {
   margin: auto;
