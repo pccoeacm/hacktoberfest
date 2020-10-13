@@ -127,12 +127,15 @@ p {
 #global-stats {
   padding: 7% 15%;
   background-color: #fff;
-  position: relative;
 }
 
 .global-stats-row {
   text-align: center;
   padding: 5%;
+}
+
+.card-body{
+  text-align:left;
 }
 
 .icon {
