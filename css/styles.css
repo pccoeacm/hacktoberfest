@@ -127,7 +127,6 @@ p {
 #global-stats {
   padding: 7% 15%;
   background-color: #fff;
-  position: relative;
 }
 
 .global-stats-row {
@@ -135,16 +134,13 @@ p {
   padding: 5%;
 }
 
+.card-body{
+  text-align:left;
+}
+
 .icon {
   color: #072540;
   margin-bottom: 1rem;
-}
-
-@media (max-width: 1028px){
-#global-stats .card{
-  position:relative;
-  left:170px;
-}
 }
 
 /* repos */
