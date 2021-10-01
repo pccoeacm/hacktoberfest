@@ -139,10 +139,7 @@ h3 {
   color: #fff !important;
 }
 
-.register-button-bottom {
-  margin: 5% 3% 5% 0;
-  color: #212529 !important;
-}
+
 
 /* Golbal stats section */
 
@@ -150,6 +147,7 @@ h3 {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+  color: var(--d-orange)
 }
 
 #global-stats {
@@ -160,6 +158,10 @@ h3 {
 .global-stats-row {
   text-align: center;
   padding: 5%;
+}
+
+.counter{
+  color: rgba(247,71,0);
 }
 
 .card-body{
@@ -177,15 +179,26 @@ h3 {
   margin: 20px;
 }
 
-.assoc-repo {
-  background: #072540;
+.card{
+  border-radius: 10px;
+}
+
+.card-title{
+  background-color: var(--orange);
+  color: var(--bg-primary);
+  border-radius: 10px 10px 0 0;
+  
+}
+
+.card-link{
+  width: 100%;
 }
 
 /* Fest Info */
 
 #fest-info {
   text-align: center;
-  background-color: #9c4668;
+  background-color: var(--d-orange);
   color: #fff;
   margin-bottom: 40px;
 }
@@ -261,20 +274,6 @@ span {
   color: rgba(255,247,237);
 }
 
-/* Call to Action */
-
-#cta {
-  background-color: #072540;
-  color: #fff;
-  text-align: center;
-  padding: 7% 15%;
-}
-
-.cta-quote {
-  font-size: 3.5rem;
-  line-height: 1.5;
-  padding-bottom: 40px;
-}
 
 /* Footer */
 
@@ -286,7 +285,7 @@ span {
 .social-icon {
   padding: 20px 10px;
   transform: scale(1.5);
-  color: #072540;
+  color: var(--d-orange);
 }
 
 @media (max-width: 1028px) {
@@ -316,7 +315,7 @@ span {
   z-index: 99; /* Make sure it does not overlap */
   border: none; 
   outline: none;
-  background-color: #8ac1d1; 
+  background-color: var(--orange); 
   color: white; 
   cursor: pointer; 
   padding: 15px; 
@@ -324,8 +323,4 @@ span {
   font-size: 30px; 
   line-height: 31px;
   padding-bottom: 0;
-}
-
-#myBtn:hover {
-  background-color: #555; 
 }
