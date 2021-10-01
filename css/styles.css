@@ -2,6 +2,18 @@ html {
   scroll-behavior: smooth;
 }
 
+a{
+  text-decoration: none;
+}
+
+:root{
+  --text-dark: #2b3531;
+  --lgreen: rgba(145,168,140);
+  --bg-primary: #f4f0e1;
+  --orange: rgba(247,71,0);
+  --d-orange: rgba(181,58,37); /*text color orange*/
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -14,16 +26,16 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #9c4668;
+  background: var(--d-orange);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #072540;
+  background: var(--orange);
 }
 
 #title {
-  background-color: #072540;
+  background-color: var(--bg-primary);
   color: #fff;
 }
 
@@ -54,9 +66,6 @@ h3 {
   font-weight: 900;
 }
 
-p {
-  color: #8f8f8f;
-}
 
 /* Navigation Bar */
 
@@ -74,6 +83,12 @@ p {
 
 .nav-link {
   font-size: 1.2rem;
+  font-weight: bold;
+  color: #111 !important;
+}
+
+.nav-link:hover{
+  color: var(--d-orange) !important;
 }
 
 .logo {
@@ -94,20 +109,33 @@ p {
   flex-direction: column;
 }
 
-.cover #logo2 {
-  margin-top: 25px;
+
+#open_source_desc{
+  color: var(--d-orange);
+  font-size: 20px;
+
 }
-.btndesign {
-  background-color: #9c4668;
+
+.comp_logo{
+  margin-left: 40px;
+  height: 30px;
 }
-.btndesign:hover {
-  background-color: #832b4e;
-}
+
+@media (min-width: 768px) { 
+
+  .comp_logo{
+    height: 57px;
+  }
+ }
+
 
 /* Register button */
 
 .register-button-top {
-  margin: 5% 3% 5% 0;
+  background-color: var(--orange);
+  border-radius: 20px;
+  font-weight: bold;
+  display: inline-block;
   color: #fff !important;
 }
 
@@ -139,7 +167,7 @@ p {
 }
 
 .icon {
-  color: #072540;
+  color: var(--lgreen);
   margin-bottom: 1rem;
 }
 
@@ -208,29 +236,29 @@ span {
 /* Prizes */
 
 #prizes {
-  background-color: #9c4668;
+  background-color: var(--d-orange);
   padding: 7% 10%;
 }
 
 .prizes-header {
-  color: #fff;
+  color: rgba(255,247,237);
   text-align: center;
   padding-bottom: 3rem;
 }
 .prizes {
   text-align: left;
   font-weight: bolder;
-  color: #fff;
+  color: rgba(255,247,237);
 }
 
 .prizes-content {
   text-align: left;
   font-size: large;
-  color: #fff;
+  color: rgba(255,247,237);
 }
 
 .conditions{
-  color: #eeecda;
+  color: rgba(255,247,237);
 }
 
 /* Call to Action */

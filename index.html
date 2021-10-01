@@ -51,10 +51,10 @@
       <div class="container-fluid">
         <!-- Nav Bar -->
 
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-light">
           <div class="logo">
             <a href="https://pccoe.acm.org/"><img src="images/ACM.png" width="100" /> </a>
-            <span style="font-size: 1.3em; margin-right: 10px">+</span>
+            <span style="font-size: 1.3em; margin-right: 10px; color:#111;">+</span>
            <a href="https://hacktoberfest.digitalocean.com/"> <img src="images/Icon.svg" width="80" height="80" /> </a>
           </div>
           <button
@@ -89,68 +89,96 @@
         </nav>
 
         <!-- Title -->
-
-        <div class="row">
-          <div class="col-lg-6 col-md-12">
-            <h1>Changing the World One Pull Request at a time.</h1>
-            <button
-              type="button"
-              class="btn btn-dark btn-lg download-button btndesign"
-            >
-              <a
-                class="register-button-top"
-                href="https://organize.mlh.io/participants/events/4385-hacktoberfest-online-meetup-by-pccoe-acm-student-chapter"
-                target="_blank"
-                >REGISTER</a
-              >
-            </button>
-          </div>
-
-          <!-- Logo -->
-
-          <div class="col-lg-6 col-md-12">
+        <div class="container d-flex flex-column">
             <div class="cover">
               <img
                 id="logo1"
-                src="images/Hactoberfest.svg"
+                src="images/Hactoberfest2k21.svg"
                 alt="Logo"
-                height="300"
-              />
-              <img
-                id="logo2"
-                src="images/Sponsors Dark Boxed.svg"
-                alt="Logo"
-                width="300"
+                height="265"
+                class="img-fluid"
               />
             </div>
-          </div>
 
-          <!-- Logo -->
+            <div class="cover">
+              <p class="my-3" id="open_source_desc">Open source is changing the world – one contribution at a time</p>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="register_accent_left">
+                <img  src="images/sign-up-accent-left.07ab168.svg" 
+                      height="95"
+                      alt="accent_left"
+                >
+              </div>
+              <div class="register-button-top my-4">
+                <a
+                class="register-button-top py-2 px-5"
+                href="https://organize.mlh.io/participants/events/4385-hacktoberfest-online-meetup-by-pccoe-acm-student-chapter"
+                target="_blank"
+                >REGISTER</a
+                >
+              </div>
+              <div class="register_accent_right">
+                <img src="images/sign-up-accent-right.2faed05.svg" 
+                      height="95"
+                      alt="accent_left"
+                >
+              </div>
+            </div>
+
+            <div class="cover">
+              <h3 class="fw-bold" style="color:rgba(145,168,140);">Presented by</h3>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center">
+              <img class="comp_logo img-fluid" src="images/logo-digitalocean-gr.f6faef2.svg" alt="digitalocean_log">
+              <img class="comp_logo img-fluid" src="images/logo-appwrite-gr.1161116.svg" alt="appwrite_logo">
+              <img class="comp_logo img-fluid" src="images/logo-intel-gr.a510816.svg" alt="intel_logo">
+              <img class="comp_logo img-fluid" src="images/logo-deepsource-gr.37aa9bc.svg" alt="deepsource_logo">
+            </div>
+          
         </div>
+      
       </div>
     </section>
 
     <!-- Global stats -->
 
     <section id="global-stats">
-      <h3 class="global-stats-header">Global stats for Hacktoberfest 2019</h3>
+      <h3 class="global-stats-header" style="color: rgba(181,58,37);"">Global stats for Hacktoberfest 2019</h3>
       <div class="row">
         <div class="global-stats-row col-lg-4">
           <i class="icon fas fa-check-circle fa-4x"></i>
-          <h2 class="counter" data-target="61871">0</h2>
-          <p>CHALLENGE COMPLETIONS</p>
+          <h2 class="counter" 
+              data-target="61871"
+              style="color: rgba(247,71,0)"
+          >
+              0
+          </h2>
+          <p style="color: rgba(181,58,37)">CHALLENGE COMPLETIONS</p>
         </div>
 
         <div class="global-stats-row col-lg-4">
           <i class="icon fas fa-check-circle fa-4x"></i>
-          <h2 class="counter" data-target="483127">0</h2>
-          <p>PULL REQUESTS OPENED</p>
+          <h2 class="counter" 
+              data-target="483127"
+              style="color: rgba(247,71,0)"
+          >
+            0
+          </h2>
+          <p style="color: rgba(181,58,37)">PULL REQUESTS OPENED</p>
         </div>
 
         <div class="global-stats-row col-lg-4">
           <i class="icon fas fa-check-circle fa-4x"></i>
-          <h2 class="counter" data-target="154767">0</h2>
-          <p>PARTICIPATING REPOSITORIES</p>
+          <h2 class="counter" 
+              data-target="154767"
+              style="color: rgba(247,71,0)"
+          >
+            0
+          </h2>
+          <p style="color: rgba(181,58,37)">PARTICIPATING REPOSITORIES</p>
         </div>
       </div>
     </section>
@@ -158,7 +186,7 @@
     <!-- Prizes -->
 
    <section id="prizes">
-      <h2 class="prizes-header">Prizes</h2>
+      <h2 style="color: rgba(255,247,237)" class="prizes-header">Prizes</h2>
 
       <h4 class="prizes"><i class="fas fa-arrow-right"></i> e-Certificates</h4>
       <p class="prizes-content">
