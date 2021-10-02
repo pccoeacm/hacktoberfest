@@ -1,7 +1,6 @@
-<p align="center">
-    <img src="images\Hactoberfest2k21.svg" alt="Logo" width="150px">
-</p>
+![hacktober-logo](https://res.cloudinary.com/practicaldev/image/fetch/s--Gg3AHVhQ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/of9b6i02ifmdq5zlbmkz.jpg)
 
+# ___HACKTOBERFEST___
 
 <br>
 Hacktoberfest is an event encouraging participation in the open-source community, which grows bigger every year. It is open to everyone in our global community. Whether you’re new to development, a student, long-time contributor, event host, or company of any size, you can help drive the growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge. 
