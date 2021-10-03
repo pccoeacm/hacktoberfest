@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="images\Hactoberfest2k21.svg" alt="Logo" width="150px">
+    <img src="images\Hactoberfest2k21.svg" alt="Logo" width="350px">
 </p>
 
 
